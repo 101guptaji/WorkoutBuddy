@@ -1,0 +1,29 @@
+:root{
+  --primary: #1aac83;
+  --secondary: rgb(238, 89, 113);
+  --navBg: #fdfdfd;
+  --bgColor: #efefef;
+  --success: #00ff00;
+  --danger: #ff0000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bgColor);
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  list-style: none;
+}

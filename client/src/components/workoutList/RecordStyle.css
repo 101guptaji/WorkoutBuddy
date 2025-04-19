@@ -1,0 +1,68 @@
+.record-container{
+    width: 65%;
+    position: relative;
+    margin-top: 8vh;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+}
+
+.record{
+    background-color: #fff;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.record-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+
+    & h2{
+        font-size: 40px;
+        color: var(--primary);
+    }
+
+    & p {
+        font-size: 20px;
+    }
+}
+
+.record-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+    align-items: flex-end;
+
+    & img{
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        cursor: pointer;
+        border: 1px solid var(--primary);
+        border-radius: 50%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .record-container{
+        width: 90%;
+        margin-top: 15vh;
+        margin-left: 0;
+    }
+
+    .record-buttons{
+        margin-top: 10px;
+    }
+}
