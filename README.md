@@ -13,9 +13,9 @@
 This app is built with React, using Javascript, Node.js and express.js for backend and MongoDB for database.
 
 # UI:
-![HomePage](../WorkoutBuddy/assets/HomePage.png)
-![LoginPage](../WorkoutBuddy/assets/LoginPage.png)
-![SignupPage](../WorkoutBuddy/assets/SignupPage.png)
+![HomePage](./assets/HomePage.png)
+![LoginPage](./assets/LoginPage.png)
+![SignupPage](./assets/SignupPage.png)
 
 
 ## Quick start :
